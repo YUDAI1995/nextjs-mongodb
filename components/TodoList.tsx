@@ -16,7 +16,7 @@ const TodoList = () => {
         data: { id: id },
       })
       .then((response) => {
-        console.log(`deleted: ${response}`);
+        //onsole.log(`deleted: ${response}`);
         mutate();
       })
       .catch(function (error) {

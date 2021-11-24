@@ -1,5 +1,4 @@
 import { MongoClient, Db } from "mongodb";
-import { MongoClientOptions } from "mongodb";
 
 const { MONGODB_URI: uri, MONGODB_DB: dbName } = process.env;
 const options = {
